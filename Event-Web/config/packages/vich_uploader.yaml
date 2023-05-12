@@ -1,0 +1,10 @@
+vich_uploader:
+    db_driver: orm
+
+    mappings:
+       property_image:
+            uri_prefix: /opt/lampp/htdocs/coachini/uploads
+            upload_destination: '/opt/lampp/htdocs/coachini/uploads'
+            namer: 'Vich\UploaderBundle\Naming\UniqidNamer'
+            delete_on_remove: true
+            delete_on_update: true

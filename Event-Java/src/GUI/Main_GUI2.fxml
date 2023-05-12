@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane fx:id="border_main" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.Main_GUI2Controller">
+   <left>
+      <VBox alignment="TOP_CENTER" prefHeight="500.0" prefWidth="99.0" style="-fx-background-color: #1B6CD7;" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="Ajouter_id" mnemonicParsing="false" onAction="#Ajouter" prefHeight="26.0" prefWidth="77.0" text="Ajouter">
+               <VBox.margin>
+                  <Insets bottom="80.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="Traiter_id" mnemonicParsing="false" onAction="#Traiter" prefHeight="26.0" prefWidth="77.0" text="Traiter">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin></Button>
+         </children>
+         <padding>
+            <Insets top="150.0" />
+         </padding>
+      </VBox>
+   </left>
+</BorderPane>
